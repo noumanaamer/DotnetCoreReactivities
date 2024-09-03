@@ -19,7 +19,7 @@ export default observer(function LoginForm() {
                     <MyTextInput placeholder="Password" name="password" type='password' />
                     <ErrorMessage 
                         name="error" render={() => 
-                        <Label style={{marginBottom: 10}} basis color="red" content={errors.error} />}
+                        <Label style={{marginBottom: 10}} basic color="red" content={errors.error} />}
                     />
                     <Button loading={isSubmitting} content='Login' type='submit' fluid positive />
                 </Form>
